@@ -1,5 +1,4 @@
-
-public class errexc {
+class errexc {
     public static void main(String args[]){
         try{
             int quantity = Integer.parseInt("abc");
