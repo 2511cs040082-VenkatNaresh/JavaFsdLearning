@@ -2,59 +2,75 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+class Product {
+    String name;
+
+    Product(String name) {
+        this.name = name;
+    }
+
+    public String toString() {
+        return name;
+    }
+}
+
 public class ShoppingCart {
-    private Product[] items = new Product[10];
+
     private List<Product> itemsList = new ArrayList<>();
 
     public void addProduct(Product product) {
         itemsList.add(product);
     }
-    // students.add("alice");
-    // students.add("bob");
-    // students.add("charlie");
-    // students.add("dave");
-    // students.add("eve");
-    //System.out.println("Students: " + students);
 
-    //at a specific position
-    //students.add(2, "eve");
-    //System.out.println("Students: " + students);
+    public static void main(String[] args) {
 
-    //Add all elements from another collection
-    //List<String> newStudents = new ArrayList<>();
-    //students.add(moreStudents);
-    //System.out.println("Students: " + students);
+        List<String> students = new ArrayList<>();
 
+        students.add("alice");
+        students.add("bob");
+        students.add("charlie");
+        students.add("dave");
 
-    //Accessing elements
-    String first = students.get(0);
-    String second = students.get(1);
-    String third = students.get(2);
-    System.out.println("First student: " + first);
+        System.out.println("Students: " + students);
 
+        students.add(2, "eve");
+        System.out.println("After inserting at index 2: " + students);
 
-    //Removing elements
-    students.remove(1);
-    students.remove("bob");
-    System.out.println("Students after removal: " + students);
+        List<String> moreStudents = new ArrayList<>();
+        moreStudents.add("john");
+        moreStudents.add("emma");
 
-    //Remove all elements matching a condition
-    students.removeIf(student -> student.startsWith("a"));
-    System.out.println("Students after removing those starting with 'a': " + students);
+        students.addAll(moreStudents);
+        System.out.println("After adding all: " + students);
 
-    //Checking contents
-    boolean hasAlice = students.contains("Alice");
-    boolean hasbob = students.contains("bob");
-    System.out.println("Contains Alice? "+ hasAlice);
-    System.out.println("Contains Bob? "+ hasbob);
+        String first = students.get(0);
+        String second = students.get(1);
+        String third = students.get(2);
 
-    int index = students.Indexof
+        System.out.println("First student: " + first);
 
-    //iterator
-    System.out.println("\n ---Iterator(Professional)---");
-    Iterator<String> iterator = students.iterator();
-    while(iterator.hasNext()){
-        String student= iterator.next();
-        System.out.println("")
+        students.remove(1);
+        students.remove("bob");
+        System.out.println("After removal: " + students);
+
+        students.removeIf(student -> student.startsWith("a"));
+        System.out.println("After removing names starting with 'a': " + students);
+
+        boolean hasAlice = students.contains("alice");
+        boolean hasBob = students.contains("bob");
+
+        System.out.println("Contains alice? " + hasAlice);
+        System.out.println("Contains bob? " + hasBob);
+
+        int index = students.indexOf("charlie");
+        System.out.println("Index of charlie: " + index);
+
+        System.out.println("\n--- Iterator ---");
+        Iterator<String> iterator = students.iterator();
+
+        while (iterator.hasNext()) {
+            String student = iterator.next();
+            System.out.println(student);
+        }
     }
 }
