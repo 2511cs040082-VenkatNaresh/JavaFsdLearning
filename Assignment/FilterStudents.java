@@ -4,6 +4,7 @@ class Student {
     String name;
     int marks;
 
+
     Student(String name, int marks) {
         this.name = name;
         this.marks = marks;
@@ -24,6 +25,7 @@ public class FilterStudents {
         System.out.println("Students with marks greater than 60:");
 
         for (Student s : students) {
+            //logic for filtering students with marks greater than 60
             if (s.marks > 60) {
                 System.out.println(s.name + " - " + s.marks);
             }
