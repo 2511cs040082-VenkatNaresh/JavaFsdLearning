@@ -112,4 +112,26 @@ https://www.codechef.com/practice/course/java/LPJAAS05/problems/LJAAS49
 
 https://www.codechef.com/practice/course/java/LPJAAS05/problems/LJAAS50
 
+19-07-2026 Problems:
+
 https://www.codechef.com/practice/course/java/PJA01/problems/JPRACMCQ1
+
+https://www.codechef.com/practice/course/java/PJA01/problems/START01
+
+https://www.codechef.com/practice/course/java/PJA01/problems/JPRACREARR1
+
+https://www.codechef.com/practice/course/java/PJA01/problems/JPRACREAR1A
+
+https://www.codechef.com/practice/course/java/PJA01/problems/INSTNOODLE?tab=statement
+
+https://www.codechef.com/practice/course/java/PJA01/problems/JPRACMCQ4
+
+https://www.codechef.com/practice/course/java/PJA01/problems/CCLEARN
+
+https://www.codechef.com/practice/course/java/PJA02/problems/JPRACMCQ2
+
+https://www.codechef.com/practice/course/java/PJA02/problems/LEARNSQL?tab=statement
+
+https://www.codechef.com/practice/course/java/PJA02/problems/JPRACMCQ3
+
+https://www.codechef.com/practice/course/java/PJA02/problems/PARKINGCHARG?tab=statement
