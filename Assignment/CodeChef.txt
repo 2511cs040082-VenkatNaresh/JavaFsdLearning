@@ -135,3 +135,25 @@ https://www.codechef.com/practice/course/java/PJA02/problems/LEARNSQL?tab=statem
 https://www.codechef.com/practice/course/java/PJA02/problems/JPRACMCQ3
 
 https://www.codechef.com/practice/course/java/PJA02/problems/PARKINGCHARG?tab=statement
+
+20-07-2026 Problems:
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS51
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS52
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS53
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS54
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS55
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS56
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS57
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS58
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS59
+
+https://www.codechef.com/practice/course/java/LPJAAS06/problems/LJAAS60
